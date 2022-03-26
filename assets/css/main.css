@@ -10,20 +10,15 @@ a[href="/releases"] {
     display: none;
 }
 
-#__layout > div > main > div > aside > div > ul > li.mb-4.lg\:mb-0 {
-    display: none;
-}
-
-#__layout > div > nav > div > div > div.flex-1.flex.justify-start.w-4\/6 {
-    height: 0;
-    overflow: hidden;
-}
-
 #search {
     display: none;
 }
 
-[aria-label="E2E Testing Logo"] > img {
+nav > div > div > div:nth-child(2) {
+    visibility: hidden;
+}
+
+/* [aria-label="E2E Testing Logo"] > img {
     display: none !important;
 }
 
@@ -34,8 +29,16 @@ a[href="/releases"] {
     display: flex;
     width: 181px;
     height: 58px;
+} */
+
+[aria-label="E2E Testing Logo"] > img {
+    height: 3.5rem !important;
 }
 
 #__layout > div > main > div > div > div > div.pt-4.pb-4.lg\:px-8.flex.flex-col.sm\:flex-row.justify-between > span {
     display: none;
+}
+
+.small-text {
+    font-size: 0.8rem;
 }
