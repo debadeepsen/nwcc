@@ -11,7 +11,7 @@ Nightwatch.js is an end-to-end (E2E) software testing tool for web applications 
 
 ## How does it work?
 
-In Nightwatch, you write a test using JavaScript, following Node.js syntax and conventions. The test typically tells Nightwatch to launch a browser window, visit a URL, and perform a set of actions. For example, a simple test to check if the "About" navigation link is working on the Node.js website would be written as below:
+In Nightwatch, you write tests using JavaScript, following Node.js syntax and conventions. The test typically tells Nightwatch to launch a browser window, visit a URL, and perform a set of actions. For example, a simple test to check if the "About" navigation link is working on the Node.js website would be written as follows:
 
 ```js
 
@@ -21,7 +21,6 @@ describe('Test for Node.js website', function() {
       .url('https://www.nodejs.org/en/')
       .waitForElementVisible('body')
       .click('nav > ul > li:nth-child(2) > a')
-      .waitForElementVisible('body')
       .verify.urlEquals('https://nodejs.org/en/about/')
       .end()
   })

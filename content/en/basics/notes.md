@@ -10,7 +10,7 @@ category: Basics
 This tutorial is aimed at serving three different kinds of people.
 
 1. Developers, specifically Node.js developers who are trying to expand their realm of expertise into automation testing.
-2. Manual QA personnel, who want to learn automation strategies.
+2. Manual QA analysts, who want to learn automation strategies.
 3. Business owners and architects trying to gauge whether test automation is good for the development process and the business in the long run (it is\!)
 
 ## Scope limitations
