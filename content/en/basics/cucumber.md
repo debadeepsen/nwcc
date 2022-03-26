@@ -11,7 +11,7 @@ Cucumber is a tool that supports and facilitates Behaviour-driven Development (B
 
 ## How does it work?
 
-Cucumber allows users to write in a syntax called "Gherkin". It is a set of grammar rules that makes plain text structured enough for Cucumber to understand. An example of a sample gherkin steps would be something like this.
+Cucumber allows users to write in a syntax called "Gherkin". It is a set of grammar rules that makes plain text structured enough for Cucumber to understand. An example of a sample gherkin file would be something like this.
 
 ```
 Feature: Google Searching
