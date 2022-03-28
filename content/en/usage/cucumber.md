@@ -1,14 +1,12 @@
 ---
-title: 'Cucumber Usage'
-menuTitle: Cucumber
+title: 'Feature Files'
 description: ''
 position: 8
-category: Usage
+category: Cucumber
 ---
 
 
 
-## Feature Files
 
 Feature files are at the heart of Cucumber. A feature file is a list of steps written in the Gherkin syntax. It's essentially a series of lines (called "steps") describing a test scenario/test case. These lines typically start with one of the following keywords, which describe the purpose of the line.
 
@@ -27,6 +25,7 @@ Describes the action to be taken. For example, clicking a button, or typing in s
 ### `Then`
 This describes the result that is expected, if the actions have been performed while meeting the pre-condition.
 
+> The full list of keywords supported by Cucumber can be found at <a target="_blank" href="https://cucumber.io/docs/gherkin/reference/#keywords">https://cucumber.io/docs/gherkin/reference/#keywords<i class="fa-icon fa-solid fa-arrow-up-right-from-square"></i></a>
 
 ## Example
 

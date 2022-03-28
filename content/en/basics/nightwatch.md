@@ -7,7 +7,7 @@ category: Basics
 
 ## What is Nightwatch?
 
-Nightwatch.js is an end-to-end (E2E) software testing tool for web applications that run on a browser. It is essentially a Node.js wrapper around Selenium, the latter of which has been a standard tool for automated UI testing for many years. Nightwatch is cross-browser, meaning you can use it to test across different web browsers (currently it supports Firefox, Chrome, Edge, Opera, and Safari).
+Nightwatch.js is an end-to-end (E2E) software testing tool for web applications that run on a browser. It is essentially a Node.js wrapper around Selenium, the latter of which has been a standard tool for automated UI testing for many years. Nightwatch is cross-browser, meaning you can use it to test across different web browsers (currently it supports Firefox, Chrome, Edge, and Safari).
 
 ## How does it work?
 
