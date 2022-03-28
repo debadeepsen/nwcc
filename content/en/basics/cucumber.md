@@ -22,6 +22,6 @@ Feature: Google Searching
     When the search phrase "panda" is entered
     Then results for "panda" are shown
 ```
-<p class="small-text">(example from <a target="_blank" href="https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/">https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/</a>)</p>
+<p class="small-text">(example from <a target="_blank" href="https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/">https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/<i class="fa-icon fa-solid fa-arrow-up-right-from-square"></i></a>)</p>
 
 The code above would be stored in something we call a "feature file". The individual lines are called "steps", which are then verified using "step definitions", that can be written in various programming languages. For this tutorial, we will be using Nightwatch and JavaScript to write definitions and verify Cucumber steps.
