@@ -7,5 +7,8 @@ export default theme({
   loading: {
     color: '#35a9f2'
   },
-  css: ['@@/assets/css/main.css']
+  css: ['@@/assets/css/main.css'],
+  router: {
+    base: '/e2edoc/'
+  }
 })

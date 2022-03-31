@@ -2,8 +2,8 @@
   "title": "E2E Testing",
   "url": "https://debadeepsen.github.io/nwccdoc",
   "logo": {
-    "light": "/img/logo-light.png",
-    "dark": "/img/logo-dark.png"
+    "light": "/e2edoc/img/logo-light.png",
+    "dark": "/e2edoc/img/logo-dark.png"
   },
   "github": "debadeepsen/nwcc",
   "twitter": "@nuxt_js"

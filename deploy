@@ -1,0 +1,1 @@
+npm run generate; Xcopy D:\Code\nwcc\dist\ D:\Code\e2edoc\ /E/H/C/I/Y; cd ..\e2edoc\; git add .; git commit -m "changes"; git push; cd ../nwcc
